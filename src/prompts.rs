@@ -1,3 +1,7 @@
+// this is the prompts.rs
+// this input in python like more easy for to use made
+
+
 use std::io;
 
 pub fn prompt() -> String {

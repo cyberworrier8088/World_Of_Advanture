@@ -21,12 +21,4 @@ pub fn game() {
     }
 
     println!("\nYour adventure begins now...");
-    let _ = io::stdout().flush();
-
-    let choice = prompts::prompt();
-    if choice.to_lowercase().starts_with('y') {
-        
-    } else {
-        
-    }
 }

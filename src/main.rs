@@ -1,3 +1,8 @@
+// this is the main.rs
+// its run and play the game!
+// this can play music and game and etc :)
+
+
 mod music;
 mod prompts;
 mod text;
