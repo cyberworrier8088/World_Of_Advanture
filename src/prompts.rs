@@ -1,9 +1,7 @@
 use std::io;
 
-fn prompt() -> bool {
+pub fn prompt() -> String {
     let mut input = String::new();
     io::stdin().read_line(&mut input).unwrap();
-
-    return input.to_ascii_lowercase().starts_with("y");
-    
+    input.trim().to_string()
 }
